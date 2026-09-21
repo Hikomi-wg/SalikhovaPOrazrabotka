@@ -12,3 +12,11 @@ let num1: number = 0;
 let num2: number = 0;
 
 showMenu();
+
+function divide(a: number, b: number): number {
+    if (b === 0) {
+        console.log("Ошибка: деление на ноль!");
+        return 0;
+    }
+    return a / b;
+}
