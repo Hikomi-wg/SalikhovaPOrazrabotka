@@ -12,3 +12,4 @@ let num1: number = 0;
 let num2: number = 0;
 
 showMenu();
+// файнал
