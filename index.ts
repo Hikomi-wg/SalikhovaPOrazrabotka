@@ -13,6 +13,9 @@ let num2: number = 0;
 
 showMenu();
 
+function power(a: number, b: number): number {
+    return Math.pow(a, b);
+}
 function divide(a: number, b: number): number {
     if (b === 0) {
         console.log("Ошибка: деление на ноль!");
