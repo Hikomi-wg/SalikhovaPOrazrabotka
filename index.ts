@@ -13,6 +13,9 @@ let num2: number = 0;
 
 showMenu();
 
+function add(a: number, b: number): number {
+    return a + b;
+}
 function setNumbers(a: number, b: number): void {
     num1 = a;
     num2 = b;
